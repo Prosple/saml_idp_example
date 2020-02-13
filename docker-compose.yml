@@ -1,0 +1,8 @@
+version: "3.2"
+services:
+  php:
+    ports:
+      - "8080:80"
+    image: php:apache
+    volumes:
+      - .:/var/www/html/
